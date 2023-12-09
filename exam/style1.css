@@ -1,0 +1,107 @@
+
+/* 3rd Questions */
+*{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.navigation{
+    background-color: rgba(249, 15, 15, 0.968);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image{
+    flex: 1;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.image>img{
+    border-radius: 100px;
+}
+
+.text{
+    flex: 1;
+   
+}
+.text>ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    float: right;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+.text>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.text>ul>li>a:hover{
+    color: black;
+}
+
+
+.shopping-cart{
+    background: linear-gradient(45deg, rgba(251, 8, 49, 0.418), rgba(0, 0, 255, 0.429)),url(image/dt3f_y2ce_230125.jpg);
+    background-size: 100%;
+    width: 100%;
+    min-height: 900px;
+    
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    gap: 30px;
+    padding-left: 10px;
+}
+
+.shopping-cart>.hero>.H-text>h1{
+    color: blue;
+    font-size: 5rem;
+    padding-top: 140px;
+    text-shadow: 0px 3px 8px black;
+}
+
+.shopping-cart>.hero>.H-para>p{
+    text-align: center;
+    width: 500px;
+    font-size: larger;
+    /* transform: translatex(200%); */
+}
+.H-text{
+    flex: 1;
+}
+.H-para{
+    flex: 1;
+}
+.H-button{
+    flex: 1;
+    padding-left: 140px;
+}
+.H-button>button
+{
+    padding: 10px 40px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}
+.shopping-cart>.hero>.H-text>h1:hover{
+    color: rgb(255, 11, 11);
+    transition: 2s; 
+}
+.H-button>button:hover
+{
+    background-color: rgba(255, 38, 0, 0.567);
+    border: 2px solid black;
+}

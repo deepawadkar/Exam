@@ -1,0 +1,168 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.main{
+    color: rgb(14, 14, 14);
+    background-color:none;
+    padding-left:30px ;
+    padding-top: 40px;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.425), rgba(255, 166, 0, 0.485));
+}
+
+table>input:hover{
+    transition: 2s;
+    color: purple;
+    cursor: pointer;
+}
+.header{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+h2{
+    color: rgb(245, 241, 241);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 2nd question */
+
+.modal{
+    border: 2px solid rgba(9, 9, 9, 0.696);
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 27, 164, 0.966);
+    margin-left: 35%;
+    /* transform: translateX(-180%); */
+    transform: translateY(40%);
+    box-shadow: 0px 3px 19px black;
+    border-left: 9px solid rgba(39, 7, 252, 0.699) ;
+    color: white;
+    padding: 10px 20px 10px;
+    padding-top: 40px;
+   
+}
+section{
+    background-color: aquamarine;
+    height: 700px;
+}
+.modal>h1{
+    padding-bottom: 30px;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 3px 8px rgb(2, 2, 2);
+}
+
+.modal:hover{
+    color: white;
+    background-color: black;
+}
+.modal>h1:hover{
+    text-shadow: 0px 4px 9px rgb(31, 6, 255);
+    cursor: pointer;
+}
+
+
+/* 3rd Questions */
+
+.navigation{
+    background-color: rgba(249, 15, 15, 0.968);
+    height: 100px;
+    /* width: 100%; */
+    /* min-height: 100px; */
+    display: flex;
+    flex-direction: row;
+}
+.navigation{
+    background-color: rgba(249, 15, 15, 0.968);
+    height: 100px;
+    /* width: 100%; */
+    /* min-height: 100px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    flex: 1;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.image>img{
+    border-radius: 100px;
+}
+
+.text{
+    flex: 1;
+   
+}
+.text>ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    float: right;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+.text>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.text>ul>li>a:hover{
+    color: black;
+}
+
+
+.shopping-cart{
+    background: linear-gradient(45deg, rgba(251, 8, 49, 0.418), rgba(0, 0, 255, 0.429)),url(image/dt3f_y2ce_230125.jpg);
+    background-size: 100%;
+    width: 100%;
+    min-height: 900px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px)
+{
+    .text>ul{
+        flex-direction: column;
+    }
+    .navigation{
+        background-color: rgba(249, 15, 15, 0.968);
+        
+        min-height: 500px;
+        /* width: 100%; */
+        
+        flex-direction: row;
+    } 
+    .text>ul>li{
+        transform: translateY(500%);
+        margin-top: 5px;
+        transform: translateX(-90%);
+    }
+    .text>ul{
+        margin-top: 90px;
+        
+    }
+    .image>img{
+        /* display: flex; */
+        transform: translateX(150%);
+        padding-bottom: 40px;
+    }
+}
